@@ -8,7 +8,8 @@
     <!-- title of the page -->
     <title>Bootstrap demo</title>
     <!-- css styles -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="style/index.css">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   </head>
   <!-- head end -->
@@ -16,34 +17,84 @@
   <!-- body start -->
   <body>
     <!-- header start -->
-    <section class="header d-flex justify-content-evenly bg-body-tertiary">
+    <section class="header bg-body-tertiary">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><i class="bi bi-apple"></i></a>
+          <a class="navbar-brand" href="#"><i class="bi bi-apple apple-icon"></i></a>
+          <a href="" class="nav-link"><i class="bi bi-search search-icons"></i> </a>
+          <a href="" class="nav-link"><i class="bi bi-bag bag-icons"></i> </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="#">Store</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" aria-current="page" href="#">Mac</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" aria-current="page" href="#">iPad</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link" aria-current="page" href="#">iPhone</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Watch</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">AirPods</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tv & Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Entertainment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Accessories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Supports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-search search-icon"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-bag bag-icon"></i></a>
+              </li>
+              
             </ul>
           </div>
         </div>
       </nav>
     </section>
     <!-- header end -->
+    <section class="news d-flex justify-content-center">
+      <div class="event">
+        <p>Get upto 10000 instant cashback with eligible cards. <sup>ss</sup> Plus upto 12 months of No cost EMI . <sup>s</sup> . <a href="">see offers</a> ><p>
+      </div>
+    </section>
 
+    <section class="hero bg-body-tertiary">
+      <div class="container pt-5">
+        <div class="row">
+        <div class="col-lg">
+        <h1>Store. <span style="color:gray">The best way to but the <br> prducts you love.</span></h1>
+        </div>
+        <div class="col-lg">
+          <div class="d-flex justify-content-end">
+            <img src="image/dp.png" class="rounded-circle me-1" alt="" style="width: 35px; height: 35px;">
+            <div class="content">
+              <p class="mb-0">Need shopping help?</p>
+              <a href="">Ask a Specialist</a>
+            </div>
+          </div>
+          </div>
+      </div>
+      </div>
+    </section>
 
 
 

@@ -1,0 +1,43 @@
+.header{
+    font-size: small;
+    height: 40px;
+}
+.navbar-brand{
+    padding-left: 200px;
+}
+
+.nav-link .search-icons{
+    display: none;
+}
+.nav-link .bag-icons{
+    display: none;
+}
+@media screen and (max-width: 480px) {
+    .navbar-brand {
+        padding-left: 0;
+    }
+    .nav-link .search-icons{
+        display: inline-block;
+    }
+    .nav-link .bag-icons{
+        display: inline-block;
+    }
+  }
+
+.apple-icon{
+    font-size: medium;
+}
+
+.nav-item{
+    margin-right: 20px;
+}
+
+
+.news .event{
+    padding-top: 15px;
+    font-size: small;
+    padding-bottom: 5px;
+}
+
+
+
